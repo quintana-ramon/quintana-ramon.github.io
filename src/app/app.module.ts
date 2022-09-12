@@ -4,17 +4,25 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { SkillsComponent } from './skills/skills.component';
+import { AchievementsComponent } from './achievements/achievements.component';
+import { LanguagesComponent } from './languages/languages.component';
+import { InterestsComponent } from './interests/interests.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    SkillsComponent,
+    AchievementsComponent,
+    LanguagesComponent,
+    InterestsComponent,
+    EducationComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
