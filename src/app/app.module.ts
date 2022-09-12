@@ -7,6 +7,7 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { SkillsComponent } from './skills/skills.component';
 import { AchievementsComponent } from './achievements/achievements.component';
 import { LanguagesComponent } from './languages/languages.component';
+import { InterestsComponent } from './interests/interests.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { LanguagesComponent } from './languages/languages.component';
     SkillsComponent,
     AchievementsComponent,
     LanguagesComponent,
+    InterestsComponent,
   ],
   imports: [BrowserModule],
   providers: [],
